@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "158564969583",
-    "project_id": "time-keepers-d0d1d",
-    "storage_bucket": "time-keepers-d0d1d.appspot.com"
+    "project_number": "689485939567",
+    "project_id": "keeper-time-23cb5",
+    "storage_bucket": "keeper-time-23cb5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:158564969583:android:9db185c6e32c9dfae6319a",
+        "mobilesdk_app_id": "1:689485939567:android:52b8e89164c3af08029e9a",
         "android_client_info": {
           "package_name": "com.example.time_keepers_mobile"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBdWwRHkvTTG2tsPcPVZuMJMMst5fPdBKg"
+          "current_key": "AIzaSyBsBKOHHW5IMT_16uZqVChc96cZPNgCtOw"
         }
       ],
       "services": {

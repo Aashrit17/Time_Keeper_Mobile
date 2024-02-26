@@ -26,10 +26,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -53,10 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBdWwRHkvTTG2tsPcPVZuMJMMst5fPdBKg',
-    appId: '1:158564969583:android:9db185c6e32c9dfae6319a',
-    messagingSenderId: '158564969583',
-    projectId: 'time-keepers-d0d1d',
-    storageBucket: 'time-keepers-d0d1d.appspot.com',
+    apiKey: 'AIzaSyBsBKOHHW5IMT_16uZqVChc96cZPNgCtOw',
+    appId: '1:689485939567:android:52b8e89164c3af08029e9a',
+    messagingSenderId: '689485939567',
+    projectId: 'keeper-time-23cb5',
+    storageBucket: 'keeper-time-23cb5.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyD_Go6DefrthPc2w9UINAi0yAb3FoUTh7c',
+    appId: '1:689485939567:ios:344cddd3293e5c7d029e9a',
+    messagingSenderId: '689485939567',
+    projectId: 'keeper-time-23cb5',
+    storageBucket: 'keeper-time-23cb5.appspot.com',
+    iosBundleId: 'com.example.timeKeepersMobile',
   );
 }

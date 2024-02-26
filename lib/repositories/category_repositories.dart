@@ -44,30 +44,30 @@ class CategoryRepository {
   List<CategoryModel> makeCategory() {
     return [
       CategoryModel(
-          categoryName: "Mobile Phones and Accessories",
+          categoryName: "ROLEX",
           status: "active",
           imageUrl:
-              "5.imimg.com/data5/SELLER/Default/2023/4/302728285/ZH/WS/BR/69896726/mobile-phone-accessories.png"),
+              "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Rolex_logo.svg/1200px-Rolex_logo.svg.png"),
       CategoryModel(
-          categoryName: "Automobile",
+          categoryName: "Armani",
           status: "active",
           imageUrl:
-              "https://i2-prod.dailyrecord.co.uk/incoming/article25217715.ece/ALTERNATES/s615/0_Daily-Record-Road-Record.jpg"),
+              "https://logowik.com/content/uploads/images/armani8432.jpg"),
       CategoryModel(
-          categoryName: "Apparel",
+          categoryName: "Daniel Wellington",
           status: "active",
           imageUrl:
-              "https://www.techprevue.com/wp-content/uploads/2016/05/online-apparel-business.jpg"),
+              "https://logonoid.com/images/daniel-wellington-logo.jpg"),
       CategoryModel(
-          categoryName: "Computers and Peripherals",
+          categoryName: "Curren",
           status: "active",
           imageUrl:
-              "https://i2.wp.com/d3d2ir91ztzaym.cloudfront.net/uploads/2020/07/computer-peripherals.jpeg"),
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTjUrN9Plt6VC5-64TsczIOBtKk_8RoaQ2SQ7lKWha2VsRquv1DJhG14i_hbn6urNLm7s&usqp=CAU"),
       CategoryModel(
-          categoryName: "Music Instruments",
+          categoryName: "Tissot",
           status: "active",
           imageUrl:
-              "https://img.texasmonthly.com/2013/04/ESSENTIALS_680X382.jpg"),
+              "https://i.pinimg.com/736x/0f/58/7d/0f587d9f22b372c311a58805ef14a5a0.jpg"),
     ];
   }
 }
